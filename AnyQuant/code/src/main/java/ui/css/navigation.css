@@ -1,0 +1,22 @@
+﻿
+.root{
+  -fx-base:derive(#000000,30%);
+  -fx-background:-fx-base;
+  -fx-control-inner-background:-fx-base;
+  -fx-control-inner-background-alt:derive(-fx-base,10%);
+  -fx-text-background-color:#f0ffff;
+}
+
+.button{
+  -fx-border-color:transparent;
+  -fx-border-width: 0;
+  -fx-background-radius: 0;
+  -fx-background-color: -fx-base;
+  -fx-text-fill:-fx-text-background-color;
+  -fx-font-size:14pt;
+}
+
+.button:hover {
+   -fx-font-size:16pt;
+   -fx-background-color:derive(-fx-base,30%);
+}

@@ -1,0 +1,19 @@
+who：王梦麟
+when: 第三周周四
+what: 增加用户登录注册界面的实现
+problem: 无
+todo: 界面优化与迭代2工作计划
+
+who：潘凌伟
+when：第三周周四
+what：完成逻辑层代码编写，完成部分测试
+problem：部分方法有bug未能解决
+todo：解决所有bug
+
+who：谭昕玥
+when：2016-03-09～2016-03-10
+what：修复界面bug
+problem：no
+todo：美化界面
+
+who：王嘉琛when: 2016-03-10what: 完善自选股界面，实现和其他界面的跳转，并测试problem: 存在BUGtodo: FIX BUG

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="outerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="1200.0" styleClass="root" stylesheets="@../css/mystyle.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.navigationui.NavigationController">
+    <children>
+        <HBox fx:id="tabs_HBox" onMouseEntered="#show" onMouseExited="#hide" prefHeight="52.0" prefWidth="520.0" styleClass="root" stylesheets="@../css/navigation.css">
+            <children>
+            <Label prefHeight="52.0" prefWidth="129.0" styleClass="label-bigger" text="     AnyQuant" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+                <Button fx:id="list" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#jumpToAllStock" prefHeight="51.0" prefWidth="131.0" styleClass="button-navigation" stylesheets="@../css/mystyle.css" text="自选股">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </Button>
+                <Button fx:id="market" mnemonicParsing="false" onAction="#jumpToBench" prefHeight="51.0" prefWidth="131.0" styleClass="button-navigation" stylesheets="@../css/mystyle.css" text="大盘数据">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </Button>
+            <Button fx:id="industry" mnemonicParsing="false" onAction="#jumpToIndustryAnalysis" prefHeight="51.0" prefWidth="131.0" styleClass="button-navigation" stylesheets="@../css/mystyle.css" text="行业分析">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+who：潘凌伟
+when：第三周周五
+what：完成测试，解决所有bug
+problem：界面还未完成
+todo：帮助界面编写，准备迭代二的工作
+
+who：谭昕玥
+when：2016-03-11
+what：添加筛选条件界面
+problem：css有点烦啊！
+todo：美化界面
+
+who：王嘉琛when: 2016-03-11what: CSS文件的编写与界面完善，FIX 昨日BUGproblem: 按钮有点小问题todo: 优化界面

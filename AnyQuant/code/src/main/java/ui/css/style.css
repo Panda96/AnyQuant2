@@ -1,0 +1,13 @@
+﻿.root{
+  -fx-base:derive(#000000,30%);
+  -fx-background:-fx-base;
+  -fx-control-inner-background:-fx-base;
+  -fx-control-inner-background-alt:derive(-fx-base,10%);
+  -fx-text-background-color:#f0ffff;
+}
+
+.background{
+  -fx-background-color:-fx-base;
+}
+
+.

@@ -1,0 +1,16 @@
+.chart-series-line{
+  -fx-stroke-width: 2px;
+  -fx-vertical-grid-lines-visible: false;
+}
+
+.chart-series-line.series0{
+
+}
+
+.chart-series-line.series1{
+
+}
+
+.chart{
+
+}

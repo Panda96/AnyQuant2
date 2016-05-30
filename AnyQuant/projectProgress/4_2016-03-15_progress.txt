@@ -1,0 +1,19 @@
+who:潘凌伟   
+when:第四周周二  
+what:了解股票指标含义，初步了解javafx  
+problem:对股票的分析方法还不太了解，对javafx掌握还不够   
+todo:熟悉javafx，学会图表的展现
+
+who：谭昕玥
+when：2016-03-15
+what：研究javafx的展现图表的方式
+problem：比较迷茫
+todo：尝试用javafx实现一种图表展现
+
+who: 王嘉琛when: 3.15what: 编写《需求规格说明文档》problem: 需求规格说明文档细节感觉还有点问题todo: 汇总文档
+
+who：王梦麟
+when: 3.15
+what: 编写《需求规格说明文档》
+problem: 文档不完善，内容略粗糙
+todo: 评审补充《需求规格说明文档》

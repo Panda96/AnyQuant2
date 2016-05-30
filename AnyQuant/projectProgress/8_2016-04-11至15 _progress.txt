@@ -1,0 +1,40 @@
+who: 谭昕玥
+when: 第八周
+what: 完善系统的界面样式
+problem: css不够熟练
+todo: 开始迭代三的需求分析
+
+who：王嘉琛when: 2016-04-11至2016-04-15 what: 1，实现个股分析界面的文字结论      2，修改文档      3，美化柱状图，饼图界面效果，并且完善这一部分的罗辑的代码problem: XTChart的Serise 设定存在问题todo: 暂无
+
+who：王梦麟
+when: 2016-04-15
+what: 整理需求文档
+problem: 无
+todo: 无
+
+who：王梦麟
+when: 2016-04-14
+what: 1.美化折线图界面,帮助队员修改bug
+      2.编写测试文档的一部分
+problem: 系统内还有一些bug
+todo: 协助组员完成所有的文档,解决系统bug
+
+who：王梦麟
+when: 2016-04-13
+what: 1.完成单只股票的一些指标的计算
+      2.提供MACD,RSI,EMA三个指标的接口并实现
+problem: 指标好像有BUG
+todo: debug&美化界面
+
+who：王梦麟
+when: 2016-04-12
+what:  1.全面修改折线图,添加两个指标RSI,EMA
+   	2.实现网络连接异常不崩溃并提示的功能
+problem: 暂无
+todo: 计算更多指标
+
+who：王梦麟
+when: 2016-04-11
+what:  增加单只股票MACD指数的接口
+problem: 暂无
+todo: 计算更多指标

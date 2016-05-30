@@ -1,0 +1,15 @@
+who：潘凌伟when：第四周周三what：熟悉javaFX,练习基本代码编写problem：项目目标不明确，成员有些迷茫todo：继续熟悉javaFX,争取完成一个主要界面
+
+who：谭昕玥
+when：2016-03-16
+what：尝试用javafx画出k线图
+problem：不知道如何展现图表比较好
+todo：研究python展现图表
+
+who: 王嘉琛when: 3.16what: 编写图表PO，定义统计模块接口problem: 统计模块的内容不知道怎么应用概率论知识todo: 完成matplotlib安装
+
+who：王梦麟
+when: 3.16
+what: 按照小组兴趣下载指定股票信息并修改登录界面bug
+problem: 无
+todo: 暂无

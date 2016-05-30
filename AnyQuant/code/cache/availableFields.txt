@@ -1,0 +1,1 @@
+{"status": "ok", "data": ["open", "high", "low", "close", "adj_price", "volume", "turnover", "pe_ttm", "pb"]}

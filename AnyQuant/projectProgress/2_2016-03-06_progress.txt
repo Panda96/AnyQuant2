@@ -1,0 +1,23 @@
+who：谭昕玥
+when：第二周周末
+what：定义VO包中的类，添加数据层的stub
+problem：不能确定属性中的hashmap数据结构使用是否恰当；代码报invalid character的错误
+todo：完善计划文档；学习java FX，开发数据层的driver
+
+who: 王梦麟
+when: 第二周周末
+what: 补充体系结构设计文档，编写逻辑层的桩与驱动，学习java fx技术
+problem: Javafx入手资料较多
+todo: 利用新学习知识编写项目界面
+
+who: 潘凌伟
+when: 第二周周末
+what: 修正界面原型图，阅读文档，了解设计
+problem: 因为其他活动，将预先计划的自己的任务委托给队友
+todo: 编写数据层代码
+
+who: 王嘉琛
+when: 第二周周末
+what: 编写测试用例文档，绘画界面跳转图
+problem: 不太了解过滤信息条件，测试文档待修改
+todo: 编写逻辑层代码

@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+/target/
+=======
+*.class
+*.~
+/code/.idea/*
+.classpath
+.project
+*.iml
+/.idea/
+/.idea
+/target/
+.DS_Store
+.idea/
+<<<<<<< HEAD
+out/
+>>>>>>> develop
+=======
+>>>>>>> develop

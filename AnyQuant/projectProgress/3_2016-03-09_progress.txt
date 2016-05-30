@@ -1,0 +1,19 @@
+who：潘凌伟
+when：第三周周三
+what：基本完成逻辑层代码
+problem：与数据层间的接口有问题
+todo：与队友商量，修改接口，完善代码
+
+who：谭昕玥
+when：2016-03-09～2016-03-10
+what：修复界面bug
+problem：no
+todo：美化界面
+
+who：王梦麟
+when：第三周周三
+what：访问新浪股票API读取股票的名称
+problem：无
+todo：从更多公开API里获取数据
+
+who：王嘉琛when: 2016-03-09what: 导航栏的编写和跳转problem: 界面不美观todo: 完善界面

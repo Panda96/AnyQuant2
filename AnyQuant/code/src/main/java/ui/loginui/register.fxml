@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.loginui.RegisterController">
+    <children>
+        <Button fx:id="signUpButton" layoutX="190.0" layoutY="322.0" mnemonicParsing="false"
+                onAction="#signUp" text="Sign up" textFill="BLUE" />
+        <Button fx:id="cancelButton" layoutX="296.0" layoutY="322.0" mnemonicParsing="false"
+                onAction="#cancel" text="Cancel" textFill="RED" />
+        <TextField fx:id="username" layoutX="190.0" layoutY="98.0" />
+        <PasswordField fx:id="password" layoutX="190.0" layoutY="160.0" />
+        <Label layoutX="41.0" layoutY="230.0" text="Password Confirmation" />
+        <Label layoutX="83.0" layoutY="165.0" text="Password" />
+        <Label layoutX="80.0" layoutY="103.0" text="UserName" />
+        <PasswordField fx:id="passwordAgain" layoutX="190.0" layoutY="225.0" />
+        <Label layoutX="109.0" layoutY="23.0" text="Creat an account">
+            <font>
+                <Font name="Comic Sans MS" size="29.0" />
+            </font>
+        </Label>
+        <Label fx:id="errorMessage" layoutX="190.0" layoutY="278.0" prefHeight="27.0" prefWidth="167.0" />
+    </children>
+</AnchorPane>

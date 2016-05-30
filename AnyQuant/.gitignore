@@ -1,0 +1,11 @@
+*.class
+*.~
+/code/.idea/*
+.classpath
+.project
+*.iml
+/.idea/
+/.idea
+/target/
+.DS_Store
+.idea/

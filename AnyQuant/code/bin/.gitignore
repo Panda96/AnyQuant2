@@ -1,0 +1,16 @@
+*.class
+*.~
+/code/.idea/*
+.classpath
+.project
+*.iml
+/.idea/
+/.idea
+/target/
+.DS_Store
+.idea/
+/cache/
+/icon.png
+/out/
+/pom.xml
+/src/

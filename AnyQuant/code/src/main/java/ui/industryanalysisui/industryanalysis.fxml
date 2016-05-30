@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" styleClass="root" stylesheets="@../css/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.industryanalysisui.IndustryAnalysisController">
+   <children>
+      <GridPane fx:id="industryPane" alignment="CENTER" layoutY="41.0" prefHeight="647.0" prefWidth="1200.0" styleClass="root" stylesheets="@../css/mystyle.css">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="38.0" minWidth="38.0" prefWidth="38.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1160.0" minWidth="10.0" prefWidth="1151.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="root" stylesheets="@../css/mystyle.css">
+               <children>
+                  <Label fx:id="first" onMouseClicked="#showFirst" prefHeight="150.0" prefWidth="25.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="第一季度" wrapText="true">
+                     <font>
+                        <Font name="Cambria" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="second" onMouseClicked="#showSecond" prefHeight="150.0" prefWidth="25.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="第二季度" wrapText="true">
+                     <font>
+                        <Font name="Cambria" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="third" onMouseClicked="#showThird" prefHeight="150.0" prefWidth="25.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="第三季度" wrapText="true">
+                     <font>
+                        <Font name="Cambria" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="fourth" onMouseClicked="#showFourth" prefHeight="150.0" prefWidth="25.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="第四季度" wrapText="true">
+                     <font>
+                        <Font name="Cambria" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <GridPane fx:id="chartsPane" styleClass="root" stylesheets="@../css/mystyle.css" GridPane.columnIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="216.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="529.0" minHeight="10.0" prefHeight="326.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="305.0" minHeight="10.0" prefHeight="287.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox prefHeight="30.0" prefWidth="1152.0" styleClass="root" stylesheets="@../css/mystyle.css">
+                     <children>
+                        <Button fx:id="single" mnemonicParsing="false" onMouseClicked="#setLinerChart" prefHeight="25.0" prefWidth="90.0" text="行业均价">
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="compare" mnemonicParsing="false" onMouseClicked="#setLinerChart" prefHeight="25.0" prefWidth="90.0" text="行业vs大盘" />
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+      <HBox alignment="CENTER_LEFT" layoutX="45.0" layoutY="5.0" prefHeight="36.0" prefWidth="458.0" styleClass="root" stylesheets="@../css/mystyle.css">
+         <children>
+            <Label fx:id="all" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#showTable" prefHeight="25.0" prefWidth="75.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="全部">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="coal" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#setIndustry" prefHeight="25.0" prefWidth="75.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="煤炭">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin></Label>
+            <Label fx:id="wine" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#setIndustry" prefHeight="25.0" prefWidth="75.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="酒业">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin></Label>
+            <Label fx:id="bank" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#setIndustry" prefHeight="25.0" prefWidth="75.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="银行业">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin></Label>
+            <Label fx:id="source" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#setIndustry" prefHeight="25.0" prefWidth="75.0" styleClass="label-common" stylesheets="@../css/mystyle.css" text="新能源">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin></Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

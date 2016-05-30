@@ -1,0 +1,17 @@
+﻿who：王梦麟
+when：第一周周末
+what：完成gitlab项目初始化
+problem：暂且没有下一步计划
+todo：开展第一次迭代工作
+
+who:潘凌伟
+when:第1周
+what:阅读项目说明和git使用说明
+problem:没有进一步的开发计划
+todo:和小组成员开会讨论制定详细的开发计划
+
+who:王嘉琛
+when:第一周
+what:阅读项目说明和git使用说明，进行前期准备
+problem:没有进一步的开发计划
+todo:开会讨论

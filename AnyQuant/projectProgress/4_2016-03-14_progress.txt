@@ -1,0 +1,22 @@
+
+who:潘凌伟   
+when:第四周周一    
+what:开会讨论迭代二项目，需求分析和人机交互设计  
+problrm:还未掌握Javafx  
+todo:熟悉javafx，了解股票基本知识
+
+who：谭昕玥
+when：2016-03-14
+what：确定界面的风格
+problem：不知道从哪里入手
+todo：阅读javafx的源代码
+
+who: 王嘉琛when: 3.14what: 看书《标普选股指南》，设计统计模块problem: 模块细节有待商榷todo: 完成《需求规格说明文档》
+
+who：王梦麟
+when: 3.14
+what: 学习股票有关常识
+problem: 专业知识无涯也，学之肤浅，只得皮毛
+todo: 结合统计知识思考项目使用的统计方法
+
+
